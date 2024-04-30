@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonial Section</title>
+    <link rel="stylesheet" href="../css-files/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom styles */
+      body {
+        background-color: rgb(10, 10, 71);
+      }
+
+      .testimonial-heading {
+        color: #fff;
+        font-family: "Arial", sans-serif;
+      }
+
+      .testimonial-paragraph {
+        height: 120px; /* Set a fixed height */
+        width: 223px;
+        overflow: hidden; /* Hide overflow */
+      }
+
+      .testimonial-paragraph p {
+        margin: 0; /* Remove default margin */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mx-auto py-12">
+      <div class="text-left ml-4">
+        <h2 class="text-4xl font-bold text-white font-mono pl-[268px] mt-8">
+          Our happy clients
+        </h2>
+      </div>
+      <div class="flex justify-center items-center mt-8">
+        <div class="max-w-3xl">
+          <div class="grid grid-cols-2 gap-4">
+            <!-- Testimonial Box 1 -->
+            <div class="border border-green-100 rounded-lg flex hover:skew-x-3">
+              <div class="p-4">
+                <div class="rounded-md overflow-hidden w-14 h-14 flex-shrink-0">
+                  <img src="logo1.jpg" alt="Logo 1" />
+                </div>
+              </div>
+              <div class="p-4 flex-grow">
+                <div class="testimonial-paragraph">
+                  <p class="text-white text-sm">
+                    Get a fully retina ready site when you build with Startup
+                    Framework. Websites look sharper and more gorgeous on
+                    devices with retina display support
+                  </p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Rayhan Curran</p>
+              </div>
+            </div>
+            <!-- Testimonial Box 2 -->
+            <div class="border border-gray-300 rounded-lg flex hover:skew-y-3">
+              <div class="p-4">
+                <div class="rounded-md overflow-hidden w-14 h-14 flex-shrink-0">
+                  <img src="logo2.jpg" alt="Logo 2" />
+                </div>
+              </div>
+              <div class="p-4 flex-grow">
+                <div class="testimonial-paragraph">
+                  <p class="text-white text-sm">
+                    As a business targeting high net worth individuals, we were
+                    looking for a slick, cool and mini-malistic design for our
+                    website.
+                  </p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Kayley Frame</p>
+              </div>
+            </div>
+            <!-- Testimonial Box 3 -->
+            <div class="border border-gray-300 rounded-lg flex hover:skew-x-3">
+              <div class="p-4">
+                <div class="rounded-md overflow-hidden w-14 h-14 flex-shrink-0">
+                  <img src="logo3.jpg" alt="Logo 3" />
+                </div>
+              </div>
+              <div class="p-4 flex-grow">
+                <div class="testimonial-paragraph">
+                  <p class="text-white text-sm">
+                    The most important part of the Startup Framework is the
+                    samples
+                  </p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Gene Whitfield</p>
+              </div>
+            </div>
+            <!-- Testimonial Box 4 -->
+            <div class="border border-gray-300 rounded-lg flex hover:skew-y-3">
+              <div class="p-4">
+                <div class="rounded-md overflow-hidden w-14 h-14 flex-shrink-0">
+                  <img src="logo4.jpg" alt="Logo 4" />
+                </div>
+              </div>
+              <div class="p-4 flex-grow">
+                <div class="testimonial-paragraph">
+                  <p class="text-white text-sm">
+                    I’ve built my website with Startup just in one day, and it
+                    was ready-to-go.
+                  </p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Allan Kim</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
